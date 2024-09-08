@@ -10,3 +10,7 @@ When you visit /api/shorturl/<short_url>, you will be redirected to the original
 
 ## Invalid URL Handling:
 If you submit an invalid URL that doesn't follow the valid http://www.example.com format, you will receive a JSON response with the following structure:
+
+{
+  "error": "invalid url"
+}
