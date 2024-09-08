@@ -20,7 +20,8 @@ app.get('/', function(req, res) {
 
 
 
-//we are using a database, is if we are going to reinit the server. It will not remember the original and short database.
+//we are using a database, is if we are going to reinit the server. 
+//It will not remember the original and short database.
 
 //We are going to keep it simple with array.
 
