@@ -53,7 +53,7 @@ app.post('/api/shorturl', (req,res)=>{
   })
 });
 
-//:shorturl is a placeholder for a dynamic value and can use it as variable inside middlware function with req.params.shorturl
+//:shorturl is a placeholder for a dynamic value and can use it as variable inside middleware function with req.params.shorturl
 
 app.get('/api/shorturl/:shorturl', function(req, res) {
  const shortUrl = parseInt(req.params.shorturl);
